@@ -1,0 +1,256 @@
+.mybodyclass {
+    color: #3c3c3c;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', 'Arial', 'sans-serif';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    height: 100%;
+    position: relative;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #0891af;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: initial;
+}
+
+h2 {
+    font-size: 28px;
+    color: #0891af;
+    font-weight: 400;
+    line-height: initial;
+}
+
+.red {
+    border-radius: 50%;
+    background-color: #f86841;
+    color: #fff;
+    cursor: pointer;
+}
+
+.blueclear {
+    border-radius: 50%;
+    background-color: #41e3f8;
+    color: #fff;
+    cursor: pointer
+}
+
+.red:hover {
+    background-color: #ff3600
+}
+
+.red2 {
+    color: #f86841
+}
+
+
+.content, #content {
+    width: 1260px;
+    height: auto;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0 30px;
+    min-height: 50% ;
+    background-color: #fff;
+}
+
+#group-one {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  	padding:10px 10px 10px 180px;
+    font-family: 'Rubik', 'Arial', 'sans-serif';
+    margin: 2% 0 2% 1%;
+    width: 88%;
+}
+
+.calendar {
+    width: 31.5% ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dcdcdc;
+    display: inline-block ;
+    margin: 0 .5% 1.5% ;
+    vertical-align: top ;
+    text-align: center ;
+    padding: 0 ;
+    height: auto ;
+    font-size: 12px;
+}
+
+ ul {
+    padding: 1% 0;
+    margin: 0;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #dcdcdc;
+}
+
+.calendar ul li {
+    width: 7%;
+    display: inline-block;
+    line-height: initial;
+    padding: .5% .6%;
+    margin: 0 3% 0 2%;
+}
+
+ h3 {
+    padding: 1.5% 0;
+    margin: 0;
+    background: #1CADCC;
+    color: #fff;
+    font-weight: 300;
+}
+
+ul#selecion-pais li ul li,
+ul#list7 li {
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #fff;
+    padding: 2% 0;
+    line-height: 22px
+}
+
+ul#selecion-pais li ul li:hover,
+ul#list7 li:hover {
+    background: #0891af
+}
+
+ul#selecion-pais li ul li a {
+    width: 100%;
+    display: block
+}
+
+ul#selecion-pais li ul {
+    margin: 0;
+    padding: 0;
+    background-color: #1CADCC;
+    position: absolute;
+    z-index: 99;
+    width: 178px;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    border-color: #fff;
+    display: none;
+    font-size: 12px;
+    color: #fff
+}
+
+ul#selecion-pais {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 180px;
+}
+
+ul#selecion-pais li#country {
+    background-color: #FFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dcdcdc;
+    color: #1CADCC;
+    border-radius: 5px 5px 0 0;
+    line-height: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.pop {
+    display: none;
+    background: #fff;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    padding: 3px 25px 5px;
+    color: red;
+    border-radius: 4px
+}
+
+.pop::before {
+    content: "";
+    width: 0;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 9px;
+    border-color: #787878 transparent;
+    top: -9px;
+    left: 2px
+}
+
+.pop::after {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 3px;
+    border-width: 0 6px 8px;
+    border-style: solid;
+    border-color: #fff transparent;
+    display: block;
+    width: 0
+}
+
+.group-three {
+    width: 96%;
+    font-weight: 300;
+    margin: 0 auto;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 60px;
+    -webkit-column-gap: 60px;
+    column-gap: 60px;
+    margin-left: 3px
+}
+
+.group-three p {
+    margin: 0;
+    padding: 8px 10px 6px 0;
+    vertical-align: top;
+    font-size: 14px;
+    border-collapse: collapse;
+    min-height: 30px;
+    width: 100%;
+    display: inline-block;
+    line-height: 20px;
+}
+
+.btn-year a {
+    position: relative ;
+    font-size: 18px ;
+    background-color: #fff ;
+    color: #f86841 ;
+    padding: 5px 15px 5px 18px;
+    border-radius: 2px;
+    text-align: center;
+    width: 80px;
+    display: inline-block;
+    border-style: solid;
+    border-color: #ff6730;
+    border-width: 1px;
+    margin-left: 10px;
+}
+
+.btn-year a:hover {
+    background-color: #f86841;
+    color: #fff;
+    cursor: pointer;
+}
